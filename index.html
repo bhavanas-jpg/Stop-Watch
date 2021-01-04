@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Stop Watch App</title>
+     <!--Bootstrap CDN-->
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <!--FontAwesome CDN-->
+       <script src="https://kit.fontawesome.com/9fa96fd4f5.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark mb-5">
+    <a href="#" class="navbar-brand">Stop Watch</a>
+</nav>
+ <div class="container mt-4 ">
+     <div class="row">
+         <div class="col-md-8 m-auto">
+             <div class="card">
+                 <div class="card-header bg-primary text-white text-center">
+                   <h3 >JS Stop Watch</h3>
+                 </div>
+                 <div class="card-body text-center">
+                  <h1>
+                      <span id="minutes">00</span>:
+                      <span id="seconds">00</span>:
+                      <span id="m-seconds">00</span>
+                  </h1>
+                  <button class="btn btn-success" id="start-btn">start</button>
+                  <button class="btn btn-danger" id="stop-btn">stop</button>
+                  <button class="btn btn-warning" id="reset-btn">reset</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+ <script src="app.js"></script>  
+ <!-- Popper JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
